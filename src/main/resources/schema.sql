@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS request;
+
+CREATE TABLE request (
+      id Long NOT NULL AUTO_INCREMENT PRIMARY KEY,
+      ip_origen VARCHAR(10) NOT NULL,
+      fecha TIMESTAMP NOT NULL,
+      metodo VARCHAR(250) NOT NULL
+);
+
